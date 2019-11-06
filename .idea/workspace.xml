@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b5aee8-d278-4ef6-8d64-4895fc93b17c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfscrm/crm/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfscrm/crm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfscrm/crm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfscrm/crm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfscrm/crm/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mfscrm/mfscrm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfscrm/mfscrm/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/service_delete.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+            <state relative-caret-position="348">
+              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -70,8 +64,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mfscrm/mfscrm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            <state relative-caret-position="265">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mfscrm/crm/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,16 +86,16 @@
         <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_new.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mfscrm/crm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="321">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -100,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mfscrm/crm/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="389">
+              <caret line="184" selection-start-line="184" selection-end-line="184" />
               <folding>
                 <element signature="e#1#58#0" expanded="true" />
               </folding>
@@ -112,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mfscrm/crm/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="969">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -126,8 +132,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -162,10 +168,11 @@
         <option value="$PROJECT_DIR$/mfscrm/crm/templates/crm/service_list.html" />
         <option value="$PROJECT_DIR$/mfscrm/crm/templates/crm/summary.html" />
         <option value="$PROJECT_DIR$/mfscrm/crm/templates/crm/base.html" />
-        <option value="$PROJECT_DIR$/mfscrm/crm/urls.py" />
-        <option value="$PROJECT_DIR$/mfscrm/crm/views.py" />
-        <option value="$PROJECT_DIR$/mfscrm/mfscrm/settings.py" />
         <option value="$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_list.html" />
+        <option value="$PROJECT_DIR$/mfscrm/mfscrm/settings.py" />
+        <option value="$PROJECT_DIR$/mfscrm/crm/serializers.py" />
+        <option value="$PROJECT_DIR$/mfscrm/crm/views.py" />
+        <option value="$PROJECT_DIR$/mfscrm/crm/urls.py" />
       </list>
     </option>
   </component>
@@ -181,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,20 +211,21 @@
               <item name="foodservice" type="462c0819:PsiDirectoryNode" />
               <item name="mfscrm" type="462c0819:PsiDirectoryNode" />
               <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodservice" type="462c0819:PsiDirectoryNode" />
               <item name="mfscrm" type="462c0819:PsiDirectoryNode" />
               <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,9 +269,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17427123" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17427123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,7 +281,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32839838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -398,6 +404,13 @@
     <entry file="file://$PROJECT_DIR$/Lib/site-packages/django/contrib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/service_delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -425,50 +438,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mfscrm/mfscrm/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mfscrm/crm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mfscrm/crm/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="e#1#58#0" expanded="true" />
-          </folding>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mfscrm/crm/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="969">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -478,10 +457,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mfscrm/crm/templates/crm/customer_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        <state relative-caret-position="348">
+          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfscrm/mfscrm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfscrm/crm/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfscrm/crm/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+          <folding>
+            <element signature="e#1#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfscrm/crm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
